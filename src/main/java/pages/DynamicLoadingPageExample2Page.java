@@ -27,4 +27,5 @@ public class DynamicLoadingPageExample2Page {
         return driver.findElement(textExpected).getText();
     }
 
+
 }

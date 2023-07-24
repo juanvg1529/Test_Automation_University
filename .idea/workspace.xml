@@ -4,48 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78317765-4b40-48b7-852e-37f1db2ae377" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AlertPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ContextMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DropDownPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPageExample1Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPageExample2Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FileUploadPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ForgotPasswordPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FramesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HorizontalSliderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HoverPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/InfiniteScrollPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/KeyPressesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LargeAndDeepDomPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/NestedFramesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/RetrivePasswordPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SecureAreaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WysiwgEditorPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Keys/KeysTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alert/AlertTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alert/ContextMenuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dropDrown/DropDownTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/frames/FrameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hover/HoverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/javaScript/JavaScriptTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/login/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/retrievePassword/RetrievePasswordTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/slider/SliderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/uploadFile/UploadFileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/wait/WaitTest.java" afterDir="false" />
+    <list default="true" id="78317765-4b40-48b7-852e-37f1db2ae377" name="Changes" comment="Seleniun Web Driver TAU">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MultipleWindowsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/WindowManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/navigation/NavigationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPageExample2Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPageExample2Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +52,7 @@
       <recent name="C:\Users\Rockj\IdeaProjects\TAUniversityUITA\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DropDownTest.testJSScript">
+  <component name="RunManager" selected="TestNG.NavigationTest.testSwitchToTab">
     <configuration name="DropDownTest.testJSScript" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAUniversityUITA" />
       <extension name="coverage">
@@ -97,24 +64,6 @@
       <option name="PACKAGE_NAME" value="dropDrown" />
       <option name="MAIN_CLASS_NAME" value="dropDrown.DropDownTest" />
       <option name="METHOD_NAME" value="testJSScript" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaScriptTest.scrolltoTableTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAUniversityUITA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaScript.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="javaScript" />
-      <option name="MAIN_CLASS_NAME" value="javaScript.JavaScriptTest" />
-      <option name="METHOD_NAME" value="scrolltoTableTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,17 +89,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitTest.testWaitUntilAvailable" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NavigationTest.testMultipleWindow" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAUniversityUITA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wait.*" />
+          <option name="PATTERN" value="navigation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="wait" />
-      <option name="MAIN_CLASS_NAME" value="wait.WaitTest" />
-      <option name="METHOD_NAME" value="testWaitUntilAvailable" />
+      <option name="PACKAGE_NAME" value="navigation" />
+      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTest" />
+      <option name="METHOD_NAME" value="testMultipleWindow" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -158,17 +107,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitTest.testWaitUntilHidden" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NavigationTest.testNavigator" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAUniversityUITA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wait.*" />
+          <option name="PATTERN" value="navigation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="wait" />
-      <option name="MAIN_CLASS_NAME" value="wait.WaitTest" />
-      <option name="METHOD_NAME" value="testWaitUntilHidden" />
+      <option name="PACKAGE_NAME" value="navigation" />
+      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTest" />
+      <option name="METHOD_NAME" value="testNavigator" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigationTest.testSwitchToTab" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAUniversityUITA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="navigation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="navigation" />
+      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTest" />
+      <option name="METHOD_NAME" value="testSwitchToTab" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -178,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.NavigationTest.testSwitchToTab" />
+        <item itemvalue="TestNG.NavigationTest.testMultipleWindow" />
+        <item itemvalue="TestNG.NavigationTest.testNavigator" />
         <item itemvalue="TestNG.DropDownTest.testJSScript" />
         <item itemvalue="TestNG.JavaScriptTest.testScrollUntilFiveParagraph" />
-        <item itemvalue="TestNG.JavaScriptTest.scrolltoTableTest" />
-        <item itemvalue="TestNG.WaitTest.testWaitUntilAvailable" />
-        <item itemvalue="TestNG.WaitTest.testWaitUntilHidden" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +162,14 @@
       <option name="presentableId" value="Default" />
       <updated>1689474265858</updated>
     </task>
+    <task id="LOCAL-00001" summary="Seleniun Web Driver TAU">
+      <created>1690206421309</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690206421309</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +182,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Seleniun Web Driver TAU" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seleniun Web Driver TAU" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -235,6 +214,41 @@
           <url>file://$PROJECT_DIR$/src/main/java/pages/InfiniteScrollPage.java</url>
           <line>21</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/navigation/NavigationTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/navigation/NavigationTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/navigation/NavigationTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/navigation/NavigationTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/navigation/NavigationTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/utils/WindowManager.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/alert/AlertTest.java</url>
