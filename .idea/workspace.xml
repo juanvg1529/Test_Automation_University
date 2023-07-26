@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78317765-4b40-48b7-852e-37f1db2ae377" name="Changes" comment="Seleniun Web Driver TAU">
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/EventsRepoter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Keys/KeysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Keys/KeysTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,18 +47,35 @@
       <recent name="C:\Users\Rockj\IdeaProjects\TAUniversityUITA\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.KeysTest.testBacKSpace">
-    <configuration name="KeysTest.testBacKSpace (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.HoverTest.testHoverUser1">
+    <configuration name="HoverTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAUniversityUITA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Keys.*" />
+          <option name="PATTERN" value="hover.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Keys" />
-      <option name="MAIN_CLASS_NAME" value="Keys.KeysTest" />
-      <option name="METHOD_NAME" value="testBacKSpace" />
+      <option name="PACKAGE_NAME" value="hover" />
+      <option name="MAIN_CLASS_NAME" value="hover.HoverTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HoverTest.testHoverUser1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAUniversityUITA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hover.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hover" />
+      <option name="MAIN_CLASS_NAME" value="hover.HoverTest" />
+      <option name="METHOD_NAME" value="testHoverUser1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -84,53 +101,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NavigationTest.testMultipleWindow" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAUniversityUITA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="navigation.*" />
+          <option name="PATTERN" value="login.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="navigation" />
-      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTest" />
-      <option name="METHOD_NAME" value="testMultipleWindow" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="login.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NavigationTest.testNavigator" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.testSuccesfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAUniversityUITA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="navigation.*" />
+          <option name="PATTERN" value="login.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="navigation" />
-      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTest" />
-      <option name="METHOD_NAME" value="testNavigator" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NavigationTest.testSwitchToTab" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAUniversityUITA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="navigation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="navigation" />
-      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTest" />
-      <option name="METHOD_NAME" value="testSwitchToTab" />
+      <option name="PACKAGE_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="login.LoginTest" />
+      <option name="METHOD_NAME" value="testSuccesfulLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HoverTest.testHoverUser1" />
+        <item itemvalue="TestNG.HoverTest" />
+        <item itemvalue="TestNG.LoginTest.testSuccesfulLogin" />
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.KeysTest.testBacKSpace" />
-        <item itemvalue="TestNG.KeysTest.testBacKSpace (1)" />
-        <item itemvalue="TestNG.NavigationTest.testSwitchToTab" />
-        <item itemvalue="TestNG.NavigationTest.testMultipleWindow" />
-        <item itemvalue="TestNG.NavigationTest.testNavigator" />
       </list>
     </recent_temporary>
   </component>
@@ -239,6 +237,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/utils/WindowManager.java</url>
           <line>39</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/login/LoginTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/alert/AlertTest.java</url>
