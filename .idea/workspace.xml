@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78317765-4b40-48b7-852e-37f1db2ae377" name="Changes" comment="Seleniun Web Driver TAU" />
+    <list default="true" id="78317765-4b40-48b7-852e-37f1db2ae377" name="Changes" comment="Seleniun Web Driver TAU">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Keys/KeysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Keys/KeysTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,18 +47,18 @@
       <recent name="C:\Users\Rockj\IdeaProjects\TAUniversityUITA\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NavigationTest.testSwitchToTab">
-    <configuration name="DropDownTest.testJSScript" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.KeysTest.testBacKSpace">
+    <configuration name="KeysTest.testBacKSpace (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAUniversityUITA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dropDrown.*" />
+          <option name="PATTERN" value="Keys.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dropDrown" />
-      <option name="MAIN_CLASS_NAME" value="dropDrown.DropDownTest" />
-      <option name="METHOD_NAME" value="testJSScript" />
+      <option name="PACKAGE_NAME" value="Keys" />
+      <option name="MAIN_CLASS_NAME" value="Keys.KeysTest" />
+      <option name="METHOD_NAME" value="testBacKSpace" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -62,17 +66,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaScriptTest.testScrollUntilFiveParagraph" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="KeysTest.testBacKSpace" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAUniversityUITA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaScript.*" />
+          <option name="PATTERN" value="Keys.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javaScript" />
-      <option name="MAIN_CLASS_NAME" value="javaScript.JavaScriptTest" />
-      <option name="METHOD_NAME" value="testScrollUntilFiveParagraph" />
+      <option name="PACKAGE_NAME" value="Keys" />
+      <option name="MAIN_CLASS_NAME" value="Keys.KeysTest" />
+      <option name="METHOD_NAME" value="testBacKSpace" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.KeysTest.testBacKSpace" />
+        <item itemvalue="TestNG.KeysTest.testBacKSpace (1)" />
         <item itemvalue="TestNG.NavigationTest.testSwitchToTab" />
         <item itemvalue="TestNG.NavigationTest.testMultipleWindow" />
         <item itemvalue="TestNG.NavigationTest.testNavigator" />
-        <item itemvalue="TestNG.DropDownTest.testJSScript" />
-        <item itemvalue="TestNG.JavaScriptTest.testScrollUntilFiveParagraph" />
       </list>
     </recent_temporary>
   </component>
