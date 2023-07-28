@@ -3,6 +3,7 @@ package base;
 import com.google.common.io.Files;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
@@ -29,12 +30,14 @@ public class BaseTest {
     {
         System.setProperty("webdriver.chrome.driver","resources/chromedriver.exe");//specify where the web-driver is located
 
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(getChromeOptions());
+
      /*   driver = new EventFiringWebDriver(  new ChromeDriver());
         driver.register(new EventsRepoter());*/
 
        // driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         goHome();
+        setCookie();
         driver.manage().window().maximize();
         homePage = new HomePage(driver);
 
@@ -93,6 +96,17 @@ public class BaseTest {
             }
 
         }
+    }
+    private ChromeOptions getChromeOptions(){
+        ChromeOptions options = new ChromeOptions();
+        options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+        WebDriver driver = new ChromeDriver(options);
+
+        return options;
+    }
+    private void setCookie(){
+        Cookie cookie = new Cookie.Builder("tau","123").domain("https://the-internet.herokuapp.com").build();//the domain is the site where I'm staging the cookie
+        driver.manage().addCookie(cookie);
     }
 
 
